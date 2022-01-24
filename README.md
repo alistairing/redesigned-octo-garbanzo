@@ -1,5 +1,5 @@
 # redesigned-octo-garbanzo
-testing out a the tweepy package and how to deploy a harmless twitter bot
+Testing out a the tweepy package and how to deploy a twitter bot. [This article](https://realpython.com/twitter-bot-python-tweepy/) on realpython.com contains a lot of useful information on getting started.
 
 Access Twitter API keys and tokens through the [developers portal](https://developer.twitter.com/en/portal/dashboard)
 
