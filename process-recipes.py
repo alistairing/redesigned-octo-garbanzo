@@ -24,4 +24,14 @@ data_json = json.loads(data)
 df = pd.DataFrame(data_json)
 print(df.head())
 
+# Example Query
+# Which recipes contain mushrooms in the name
+mushrooms = df[df["name"].str.contains("Mushroom")]
+print('\n\nRecipes with mushrooms in the title: ', mushrooms)
+
+# Which recipes contain mushrooms as ingredient
+mushrooms = df[df["ingredients"].str.contains("Mushrooms")]
+print('\n\nRecipes with mushrooms as ingredient: ', mushrooms)
+
+
 
